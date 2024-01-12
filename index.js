@@ -1,7 +1,7 @@
 //index.js
 (async () => {
     const database = require('./db');
-    const Produto = require('./produto');
+    const Produto = require('./models/produto');
 
     try {
         const resultado = await database.sync();
